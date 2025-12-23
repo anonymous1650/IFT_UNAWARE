@@ -1,0 +1,10 @@
+Dataset: german, Sensitive Attr: gender, Threshold: 0.5
+              precision    recall  f1-score   support
+
+           0     0.7586    0.9167    0.8302       144
+           1     0.5385    0.2500    0.3415        56
+
+    accuracy                         0.7300       200
+   macro avg     0.6485    0.5833    0.5858       200
+weighted avg     0.6970    0.7300    0.6933       200
+--------------------------------------------------

@@ -1,0 +1,10 @@
+Dataset: bank, Sensitive Attr: age, Threshold: 0.5
+              precision    recall  f1-score   support
+
+           0     0.9746    0.9969    0.9856      8664
+           1     0.8508    0.4063    0.5500       379
+
+    accuracy                         0.9721      9043
+   macro avg     0.9127    0.7016    0.7678      9043
+weighted avg     0.9694    0.9721    0.9674      9043
+--------------------------------------------------

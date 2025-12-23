@@ -1,0 +1,10 @@
+Dataset: adult, Sensitive Attr: age, Threshold: 0.5
+              precision    recall  f1-score   support
+
+           0     0.9052    0.9792    0.9408      5677
+           1     0.6828    0.3038    0.4205       836
+
+    accuracy                         0.8925      6513
+   macro avg     0.7940    0.6415    0.6806      6513
+weighted avg     0.8767    0.8925    0.8740      6513
+--------------------------------------------------
