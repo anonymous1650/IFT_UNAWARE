@@ -82,7 +82,7 @@ Before testing, you need to train the Main Classifier (CuT) and the Proxy Classi
 Generate test cases (pairs of individuals) and record predictions. This script simulates the sampling and testing process (Algorithm 2).
 
     # Generate 50,000 test pairs with Hamming distance epsilon=1
-    python3 exp_individual.py --dataset adult --sensitive gender --num-test 50000 --epsilon 1
+    python3 exp_individual.py -d adult -s gender --num-test 50000 -e 1
 
 * **Output:** The script generates raw experimental data (pairs, proxy confidence, predictions) and saves it to a CSV file in the `exp_individual_results_e1/` directory.
 
