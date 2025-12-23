@@ -16,10 +16,6 @@ def get_dataset_config(dataset_name):
         return config.german_dataset_summary, config.german_columns
     elif dataset_name == "bank":
         return config.bank_dataset_summary, config.bank_columns
-    elif dataset_name == "compas":
-        return config.compas_dataset_summary, config.compas_columns
-    elif dataset_name == "lsa":
-        return config.lsa_dataset_summary, config.lsa_columns
     else:
         raise ValueError(f"Dataset '{dataset_name}' is not configured in get_dataset_config.")
 
